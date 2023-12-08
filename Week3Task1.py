@@ -25,10 +25,9 @@ final_queue_order = process_queue(input_file)
 for name in final_queue_order:
     print(name)
 
-"""he space complexity of the provided code is primarily determined by the usage of data structures to store the queue 
+"""Space complexity is primarily determined by the usage of data structures to store the queue 
 and other variables.
 
-In the given code:
 
 A deque (queue) is used to store the queue of names. Deques are a part of the collections module in Python. 
 They provide O(1) time complexity for adding or removing elements from both ends of the queue. Therefore, 
